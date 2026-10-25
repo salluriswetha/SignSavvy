@@ -1,7 +1,8 @@
 
 import base64
 import streamlit as st
-import cv2
+from PIL import Image
+from io import BytesIO
 import numpy as np
 import pickle
 import mediapipe as mp
